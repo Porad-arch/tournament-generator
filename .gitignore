@@ -1,0 +1,13 @@
+# Caches and local clutter. This repository is public, so keep it clean.
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.DS_Store
+
+# Saved tournaments belong to whoever ran the program, not in the repository.
+tournament.json
+*.tournament.json
+
+# Session transcripts must never be committed.
+*.jsonl
